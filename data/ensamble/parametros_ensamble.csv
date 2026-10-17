@@ -1,0 +1,14 @@
+parametro,valor
+epsilon,0.2
+dt,0.01
+pasos,10000
+tiempo_final,100.0
+sigmas,0.0;0.2;0.5;1.0
+replicas_por_sigma_y_metodo,30
+semilla_base,20260317
+metodos,Euler-Maruyama;Heun-estocastico
+tiempos_distribucion_x,2.5;5;7.5;10
+condiciones_iniciales,x0_mas1_v0_0; x0_0_v0_mas1; x0_menos1_v0_0
+condicion_x0_mas1_v0_0,x0=1.0;vx0=0.0
+condicion_x0_0_v0_mas1,x0=0.0;vx0=1.0
+condicion_x0_menos1_v0_0,x0=-1.0;vx0=0.0
